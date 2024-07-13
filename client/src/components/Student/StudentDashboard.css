@@ -1,0 +1,197 @@
+.student-dashboard {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .menu {
+    background-color: #4CAF50;
+    color: white;
+    width: 250px;
+    padding: 20px;
+    overflow-y: auto;
+  }
+  
+  .menu .logo {
+    display: block;
+    margin: 0 auto 20px;
+  }
+  
+  .menu ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .menu ul li {
+    margin: 10px 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu ul li svg {
+    margin-right: 10px;
+  }
+  
+  .menu-spacing {
+    height: 50px;
+  }
+  
+  .content {
+    background-color: #f0f0f0;
+    flex-grow: 1;
+    padding: 20px;
+    overflow-y: auto;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .search-bar {
+    width: 50%;
+    padding: 10px;
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-photo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .profile-name {
+    margin-right: 10px;
+  }
+  
+  .notification-bell {
+    font-size: 20px;
+  }
+  
+  .notifications {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  
+  .notification-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    flex: 1;
+    margin: 0 10px;
+    position: relative;
+  }
+  
+  .notification-box .close-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .timetable {
+    margin: 20px 0;
+  }
+  
+  .timetable table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .timetable th, .timetable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .timetable th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .courses {
+    margin: 20px 0;
+  }
+  
+  .courses-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .course-item {
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .course-symbol {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .add-schedule-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .add-schedule-button svg {
+    margin-right: 10px;
+  }
+  
+  .sidebar {
+    margin-top: 20px;
+  }
+  
+  .upcoming-classes {
+    margin-bottom: 20px;
+  }
+  
+  .upcoming-class {
+    background-color: white;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .assignments {
+    margin-bottom: 20px;
+  }
+  
+  .calendar {
+    margin-bottom: 20px;
+  }
+  
+  .footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
